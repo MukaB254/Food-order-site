@@ -1,0 +1,148 @@
+/*
+    Author: Broucewilies Mukaisi;
+    Theme: Canteen Management Website Admin;
+    Version: 1.0;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+  
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30{
+     width: 30%;
+}
+
+table tr th{
+    text-align: justify;
+    border-bottom: 1px solid black;
+    padding: 1%;
+}
+
+table tr td{
+    text-size-adjust: auto;
+    padding: 1%;
+}
+
+.success{
+    color: #2ed573;
+}
+
+.error{
+    color: #ff4757;
+}
+
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+}
+
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+.btn-secondary{
+    background-color: #47eb5d;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    width: 100px;
+    height: 30px;
+}
+
+.btn-secondary:hover{
+    background-color: #2d8a02;
+}
+
+.btn-danger{
+    background-color: #ee6a6a;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    background-color: #6d0606;
+}
+
+/* CSS For Menu */
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+
+.menu ul li a:hover{
+    color: ff4757;
+}
+
+/* CSS For Main Content */
+.main-content{
+    padding: 3% 0;
+    margin: 0 0;
+    background-color: f1f2f6;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 1%;
+    float: left;
+}
+
+/* CSS For Footer */
+.footer{
+    background-color: #ff4757;
+    color: white;
+}
+
+/* CSS for login */
+.login{
+    border: 1px solid grey;
+    width: 30%;
+    margin: 10% auto;
+    padding: 2%;
+    background-color: rgb(233, 242, 245);
+    opacity: 1;
+}
